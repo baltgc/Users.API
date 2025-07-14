@@ -1,0 +1,49 @@
+# .NET build artifacts
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# ASP.NET secrets
+secrets.json
+
+# User-specific files
+*.rsuser
+*.sln.ide
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# Test results
+TestResults/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Entity Framework Core Migrations
+Migrations/
+
+# Local database files
+*.mdf
+*.ldf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore all .ply files
+*.ply
