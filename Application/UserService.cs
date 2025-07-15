@@ -42,7 +42,7 @@ public class UserService
         if (!BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
             throw new Exception("Contraseña incorrecta");
 
-        return _jwt.GenerateToken(user.Email, user.Role.ToString());
+        return _jwt.GenerateToken(user.Email, user.Role.ToString(), user.Id);
     }
 
     public async Task<User> GetCurrentUserAsync(ClaimsPrincipal userClaims)
